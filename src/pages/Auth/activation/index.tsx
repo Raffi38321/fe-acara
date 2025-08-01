@@ -17,7 +17,6 @@ const AcctivationPage = (props: PropTypes) => {
 export async function getServerSideProps(context: { query: { code: string } }) {
   try {
     const result = await authServices.activation({ code: context.query.code });
-    console.log(result.data.data);
     if (result.data.data) {
       return {
         props: {
