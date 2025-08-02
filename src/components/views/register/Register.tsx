@@ -36,9 +36,9 @@ const Register = () => {
       <Card>
         <CardBody className="p-8">
           <h2 className="text-xl font-bold text-danger-500">Create Account</h2>
-          <p className="mb-4 text-small">
+          <p className="mb-4 mt-2 text-small">
             have an account?&nbsp;
-            <Link href="/auth/login" className="font-semibold text-danger-400">
+            <Link href="/Auth/login" className="font-semibold text-danger-400">
               Login here
             </Link>
           </p>
